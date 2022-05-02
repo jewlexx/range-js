@@ -1,0 +1,1 @@
+declare function range(): void;
