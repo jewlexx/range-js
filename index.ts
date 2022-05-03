@@ -17,6 +17,10 @@ export class Range implements Iterable<number> {
   }
 }
 
-export default function range(start: number, end: number): Range {
+function range(start: number, end: number): Range {
   return new Range(start, end);
 }
+
+export { range };
+
+export default range;
